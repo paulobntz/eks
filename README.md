@@ -4,7 +4,7 @@
 
  - Terraform 1.1.3 installed
  - Already created role for the cluster
- - Already created role for node-groups (worker)
+ - Already created role for node-groups (workers)
  - Already created role for lambda functions
 
 ```
@@ -76,9 +76,11 @@ lambda.amazonaws.com
 
 ## Edit file terraform.tfvars
 - Set cluster name
-- Set cluster role name
-
-
+- Set role name for the cluster
+- Set role name for node-groups (workers)
+- Set role name for lambda functions
+- Set VPC ID
+- Set subnets IDs
 
 ## Finally execute:
 
@@ -87,3 +89,4 @@ $ terraform fmt
 $ terraform init
 $ terraform plan -out=out.plan
 $ terraform apply out.plan
+```
