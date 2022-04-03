@@ -85,7 +85,7 @@ lambda.amazonaws.com
 ## Finally execute:
 
 ```
-$ terraform fmt
+$ terraform fmt (optional)
 $ terraform init
 $ terraform plan -out=out.plan
 $ terraform apply out.plan
