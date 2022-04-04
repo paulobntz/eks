@@ -23,7 +23,7 @@ eks-node-group-role
 
 AWS managed policies:
 AmazonEKSWorkerNodePolicy
-AmazonEKS_CNI_Policy`
+AmazonEKS_CNI_Policy
 AmazonEC2ContainerRegistryReadOnly
 AmazonSSMManagedInstanceCore
 
